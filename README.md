@@ -33,8 +33,8 @@ An intelligent desktop application that captures screenshots, analyzes multiple-
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/tayden1990/screen-ai-analyzer.git
-   cd screen-ai-analyzer
+   git clone https://github.com/tayden1990/matrus-vision.git
+   cd matrus-vision
    ```
 
 2. **Install dependencies**
@@ -82,7 +82,7 @@ npm run clean
 ## 📁 Project Structure
 
 ```
-screen-ai-analyzer/
+matrus-vision/
 ├── src/
 │   ├── main.ts              # Main Electron process
 │   ├── capture/             # Screen capture functionality
@@ -98,9 +98,9 @@ screen-ai-analyzer/
 ## ⚙️ Configuration
 
 The application stores configuration in your system's user data directory:
-- **Windows**: `%APPDATA%/screen-ai-analyzer/config.json`
-- **macOS**: `~/Library/Application Support/screen-ai-analyzer/config.json`
-- **Linux**: `~/.config/screen-ai-analyzer/config.json`
+- **Windows**: `%APPDATA%/matrus-vision/config.json`
+- **macOS**: `~/Library/Application Support/matrus-vision/config.json`
+- **Linux**: `~/.config/matrus-vision/config.json`
 
 ## 🔧 API Integration
 
@@ -134,8 +134,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Issues & Support
 
-- 🐛 [Report bugs](https://github.com/tayden1990/screen-ai-analyzer/issues)
-- 💬 [Ask questions](https://github.com/tayden1990/screen-ai-analyzer/discussions)
+- 🐛 [Report bugs](https://github.com/tayden1990/matrus-vision/issues)
+- 💬 [Ask questions](https://github.com/tayden1990/matrus-vision/discussions)
 - 📧 Email: taherakbarisaeed@gmail.com
 - 📱 Telegram: https://t.me/tayden2023
 

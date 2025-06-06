@@ -1,4 +1,4 @@
-// filepath: e:\my-final-app\matrus-exam-mind\screen-ai-analyzer\CONTRIBUTING.md
+// filepath: e:\my-final-app\matrus-exam-mind\matrus-vision\CONTRIBUTING.md
 # Contributing to Screen AI Analyzer
 
 Thank you for considering contributing to Screen AI Analyzer! This document provides guidelines and information for contributors.
@@ -16,8 +16,8 @@ Thank you for considering contributing to Screen AI Analyzer! This document prov
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/tayden1990/screen-ai-analyzer.git
-   cd screen-ai-analyzer
+   git clone https://github.com/tayden1990/matrus-vision.git
+   cd matrus-vision
    ```
 
 2. **Install dependencies**
@@ -146,8 +146,8 @@ All contributions go through code review:
 
 ## 📞 Getting Help
 
-- 💬 [GitHub Discussions](https://github.com/tayden1990/screen-ai-analyzer/discussions)
-- 🐛 [Issues](https://github.com/tayden1990/screen-ai-analyzer/issues)
+- 💬 [GitHub Discussions](https://github.com/tayden1990/matrus-vision/discussions)
+- 🐛 [Issues](https://github.com/tayden1990/matrus-vision/issues)
 - 📧 Email: taherakbarisaeed@gmail.com
 - 📱 Telegram: https://t.me/tayden2023
 

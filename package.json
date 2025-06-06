@@ -1,15 +1,15 @@
 {
-  "name": "screen-ai-analyzer",
+  "name": "matrus-vision",
   "version": "1.0.0",
   "description": "An intelligent desktop application that captures screenshots, analyzes multiple-choice questions using OpenAI's Vision API, and displays correct answers with visual overlays.",
   "main": "dist/main.js",
-  "homepage": "https://github.com/tayden1990/screen-ai-analyzer#readme",
+  "homepage": "https://github.com/tayden1990/matrus-vision#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tayden1990/screen-ai-analyzer.git"
+    "url": "git+https://github.com/tayden1990/matrus-vision.git"
   },
   "bugs": {
-    "url": "https://github.com/tayden1990/screen-ai-analyzer/issues"
+    "url": "https://github.com/tayden1990/matrus-vision/issues"
   },
   "scripts": {
     "start": "npm run build && electron dist/main.js",

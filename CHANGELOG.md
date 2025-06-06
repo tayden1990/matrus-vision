@@ -38,4 +38,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Network timeout management
 - Canvas-based tray icons
 
-[1.0.0]: https://github.com/tayden1990/screen-ai-analyzer/releases/tag/v1.0.0
+[1.0.0]: https://github.com/tayden1990/matrus-vision/releases/tag/v1.0.0

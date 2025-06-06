@@ -38,6 +38,6 @@
   "publish": {
     "provider": "github",
     "owner": "tayden1990",
-    "repo": "screen-ai-analyzer"
+    "repo": "matrus-vision"
   }
 }
