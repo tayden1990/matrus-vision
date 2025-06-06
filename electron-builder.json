@@ -1,0 +1,43 @@
+{
+  "appId": "com.tayden1990.screenai",
+  "productName": "Screen AI Analyzer",
+  "files": [
+    "dist/**/*",
+    "assets/**/*",
+    "node_modules/**/*"
+  ],
+  "directories": {
+    "output": "build"
+  },
+  "mac": {
+    "category": "public.app-category.utilities",
+    "target": [
+      "dmg",
+      "zip"
+    ]
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "assets/icons/icon.ico"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "icon": "assets/icons/icon.png"
+  },
+  "build": {
+    "asar": true,
+    "extraResources": [
+      "assets/**/*"
+    ]
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "tayden1990",
+    "repo": "screen-ai-analyzer"
+  }
+}

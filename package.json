@@ -1,0 +1,60 @@
+{
+  "name": "screen-ai-analyzer",
+  "version": "1.0.0",
+  "description": "An intelligent desktop application that captures screenshots, analyzes multiple-choice questions using OpenAI's Vision API, and displays correct answers with visual overlays.",
+  "main": "dist/main.js",
+  "homepage": "https://github.com/tayden1990/screen-ai-analyzer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayden1990/screen-ai-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tayden1990/screen-ai-analyzer/issues"
+  },
+  "scripts": {
+    "start": "npm run build && electron dist/main.js",
+    "dev": "tsc && electron dist/main.js",
+    "build": "tsc",
+    "package": "electron-builder",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "clean": "rm -rf dist build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "electron",
+    "screen-capture",
+    "ai",
+    "chatgpt",
+    "vision-api",
+    "overlay",
+    "desktop-app",
+    "automation",
+    "multiple-choice",
+    "exam-helper"
+  ],
+  "author": {
+    "name": "Taher Akbari Saeed",
+    "email": "taherakbarisaeed@gmail.com",
+    "url": "https://github.com/tayden1990"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "canvas": "^3.1.0",
+    "electron": "^27.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "electron-builder": "^24.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

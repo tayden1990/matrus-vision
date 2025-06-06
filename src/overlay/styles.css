@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+}
+
+.arrow {
+    position: absolute;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-image: url('../assets/icons/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: auto; /* Allow interaction with arrows */
+}
+
+.highlight {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 0, 0.8); /* Highlight border */
+    border-radius: 5px;
+    pointer-events: none; /* Prevent interaction with highlight */
+}
